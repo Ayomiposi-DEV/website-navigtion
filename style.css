@@ -127,7 +127,34 @@ body {
 	font-size: 1.1rem;
 	color: #120309;
 }
-
+.card-section {
+	display: flex;
+	gap: 10px;
+	background-color: #70163c;
+	align-items: center;
+	justify-content: center;
+	overflow: scroll;
+	height: auto;
+	flex-wrap: wrap;
+}
+.card-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px;
+	width: 500px;
+	height: 400px;
+}
+.card-body p,
+h3 {
+	color: #fff;
+}
+.card-img {
+	display: block;
+	width: 400px;
+	height: 300px;
+}
 /* Mobile Responsive */
 @media (max-width: 768px) {
 	.nav-menu {
